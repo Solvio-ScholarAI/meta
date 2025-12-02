@@ -1,0 +1,18 @@
+[submodule "Frontend"]
+	path = Frontend
+	url = https://github.com/Solvio-ScholarAI/frontend.git
+[submodule "Microservice/user_service"]
+	path = Microservice/user_service
+	url = https://github.com/Solvio-ScholarAI/user_service.git
+[submodule "Microservice/notification_service"]
+	path = Microservice/notification_service
+	url = https://github.com/Solvio-ScholarAI/notification_service.git
+[submodule "Microservice/project_service"]
+	path = Microservice/project_service
+	url = https://github.com/Solvio-ScholarAI/project_service.git
+[submodule "Microservice/service_registry"]
+	path = Microservice/service_registry
+	url = https://github.com/Solvio-ScholarAI/service_registry.git
+[submodule "Microservice/api_gateway"]
+	path = Microservice/api_gateway
+	url = https://github.com/Solvio-ScholarAI/api_gateway.git
