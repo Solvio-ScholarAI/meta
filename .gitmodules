@@ -19,8 +19,8 @@
 [submodule "AI-Agents/extractor"]
 	path = AI-Agents/extractor
 	url = https://github.com/Solvio-ScholarAI/extractor.git
-[submodule "AI-Agents/gap_analyzer"]
-	path = AI-Agents/gap_analyzer
+[submodule "AI-Agents/gap-analyzer"]
+	path = AI-Agents/gap-analyzer
 	url = https://github.com/Solvio-ScholarAI/gap_analyzer.git
 [submodule "AI-Agents/paper-search"]
 	path = AI-Agents/paper-search

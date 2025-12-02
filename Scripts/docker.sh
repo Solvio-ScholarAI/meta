@@ -298,16 +298,6 @@ start_applications() {
         return 1
     fi
     
-    # 9. NGINX Proxy
-    print_step "2.9" "Starting NGINX Proxy..."
-    if docker compose -f "$DOCKER_APP" up -d nginx-proxy; then
-        echo -e "${GREEN}✓ NGINX Proxy started${NC}"
-        echo -e "${GREEN}✓ Platform accessible at http://localhost${NC}"
-    else
-        echo -e "${RED}✗ Failed to start NGINX Proxy${NC}"
-        return 1
-    fi
-    
     echo -e "${GREEN}✓ All application services started successfully!${NC}"
     return 0
 }

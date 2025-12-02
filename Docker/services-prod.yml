@@ -3,6 +3,8 @@ services:
     image: postgres:17-alpine
     container_name: user-db
     restart: unless-stopped
+    env_file:
+      - /opt/scholarai/envs/infra.env
     environment:
       POSTGRES_USER: ${USER_DB_USER}
       POSTGRES_PASSWORD: ${USER_DB_PASSWORD}
@@ -47,6 +49,8 @@ services:
     image: postgres:17-alpine
     container_name: notification-db
     restart: unless-stopped
+    env_file:
+      - /opt/scholarai/envs/infra.env
     environment:
       POSTGRES_USER: ${NOTIFICATION_DB_USER}
       POSTGRES_PASSWORD: ${NOTIFICATION_DB_PASSWORD}
@@ -87,6 +91,8 @@ services:
     image: postgres:17-alpine
     container_name: project-db
     restart: unless-stopped
+    env_file:
+      - /opt/scholarai/envs/infra.env
     environment:
       POSTGRES_USER: ${PROJECT_DB_USER}
       POSTGRES_PASSWORD: ${PROJECT_DB_PASSWORD}
@@ -127,6 +133,8 @@ services:
     image: 'rabbitmq:4.1.0-management-alpine'
     container_name: user-rabbitmq
     restart: always
+    env_file:
+      - /opt/scholarai/envs/infra.env
     environment:
       RABBITMQ_DEFAULT_USER: ${USER_RABBITMQ_USER}
       RABBITMQ_DEFAULT_PASS: ${USER_RABBITMQ_PASSWORD}
@@ -153,6 +161,8 @@ services:
       --appendonly no
       --maxmemory 256mb
       --maxmemory-policy allkeys-lru
+    env_file:
+      - /opt/scholarai/envs/infra.env
     environment:
       REDIS_PASSWORD: ${USER_REDIS_PASSWORD}
     ports:
@@ -185,8 +195,8 @@ services:
     volumes:
       - grobid-home:/opt/grobid/grobid-home
     environment:
-      # down from 4g → 1g. Bump only if you see OOM in logs.
-      JAVA_OPTS: "-Xms512m -Xmx2g -XX:+UseG1GC -XX:MaxGCPauseMillis=200"
+      # Increased memory allocation for better performance
+      JAVA_OPTS: "-Xms1g -Xmx3g -XX:+UseG1GC -XX:MaxGCPauseMillis=200"
     cpus: 2.0
     mem_limit: 3.5g
     mem_reservation: 1.5g
