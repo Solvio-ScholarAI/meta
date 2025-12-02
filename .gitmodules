@@ -1,27 +1,27 @@
 [submodule "Frontend"]
 	path = Frontend
 	url = https://github.com/Solvio-ScholarAI/frontend.git
-[submodule "Microservice/user_service"]
-	path = Microservice/user_service
+[submodule "Microservices/user-service"]
+	path = Microservices/user-service
 	url = https://github.com/Solvio-ScholarAI/user_service.git
-[submodule "Microservice/notification_service"]
-	path = Microservice/notification_service
+[submodule "Microservices/notification-service"]
+	path = Microservices/notification-service
 	url = https://github.com/Solvio-ScholarAI/notification_service.git
-[submodule "Microservice/project_service"]
-	path = Microservice/project_service
+[submodule "Microservices/project-service"]
+	path = Microservices/project-service
 	url = https://github.com/Solvio-ScholarAI/project_service.git
-[submodule "Microservice/service_registry"]
-	path = Microservice/service_registry
+[submodule "Microservices/service-registry"]
+	path = Microservices/service-registry
 	url = https://github.com/Solvio-ScholarAI/service_registry.git
-[submodule "Microservice/api_gateway"]
-	path = Microservice/api_gateway
+[submodule "Microservices/api-gateway"]
+	path = Microservices/api-gateway
 	url = https://github.com/Solvio-ScholarAI/api_gateway.git
 [submodule "AI-Agents/extractor"]
 	path = AI-Agents/extractor
 	url = https://github.com/Solvio-ScholarAI/extractor.git
 [submodule "AI-Agents/gap_analyzer"]
 	path = AI-Agents/gap_analyzer
-	url = https://github.com/Solvio-ScholarAI/gap_analyzer
+	url = https://github.com/Solvio-ScholarAI/gap_analyzer.git
 [submodule "AI-Agents/paper-search"]
 	path = AI-Agents/paper-search
-	url = https://github.com/Solvio-ScholarAI/paper-search
+	url = https://github.com/Solvio-ScholarAI/paper-search.git
