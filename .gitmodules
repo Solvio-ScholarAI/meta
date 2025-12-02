@@ -16,3 +16,12 @@
 [submodule "Microservice/api_gateway"]
 	path = Microservice/api_gateway
 	url = https://github.com/Solvio-ScholarAI/api_gateway.git
+[submodule "AI-Agents/extractor"]
+	path = AI-Agents/extractor
+	url = https://github.com/Solvio-ScholarAI/extractor.git
+[submodule "AI-Agents/gap_analyzer"]
+	path = AI-Agents/gap_analyzer
+	url = https://github.com/Solvio-ScholarAI/gap_analyzer
+[submodule "AI-Agents/paper-search"]
+	path = AI-Agents/paper-search
+	url = https://github.com/Solvio-ScholarAI/paper-search
