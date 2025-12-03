@@ -287,7 +287,7 @@ npm run dev
 - **RabbitMQ Management**: http://localhost:15672
 - **API Documentation**: http://localhost:8989/swagger-ui.html
 
----
+---------------------------------------------------------------------
 
 ## 🔧 Components
 
