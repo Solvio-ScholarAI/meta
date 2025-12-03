@@ -209,7 +209,7 @@ meta/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Javafest2025/meta.git
+git clone https://github.com/Solvio-ScholarAI/meta.git
 cd meta
 ```
 
