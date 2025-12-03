@@ -15,7 +15,7 @@
   [Documentation](#-documentation) · [Quick Start](#-quick-start) · [Architecture](#-architecture) · [Features](#-features) · [Contributing](#-contributing)
 </div>
 
----
+---------------------------------------------------------
 
 ## 📋 Table of Contents
 
