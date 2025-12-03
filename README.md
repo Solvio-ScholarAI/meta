@@ -690,12 +690,7 @@ copies or substantial portions of the Software.
 
 ---
 
-## 📞 Contact & Support
-
 - **Website**: [https://scholarai.me](https://scholarai.me)
-- **GitHub**: [https://github.com/Javafest2025/meta](https://github.com/Javafest2025/meta)
-- **Issues**: [GitHub Issues](https://github.com/Javafest2025/meta/issues)
-- **Email**: support@scholarai.me
 
 ---
 
