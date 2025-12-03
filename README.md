@@ -31,7 +31,7 @@
 - [Contributing](#-contributing)
 - [License](#-license)
 
----
+--------------------------------------------------------------
 
 ## 🌟 Overview
 
@@ -43,7 +43,7 @@ Empower researchers, academics, and students with AI-driven tools that accelerat
 ### 🚀 Live Deployment
 Access the production application at **[https://scholarai.me](https://scholarai.me)**
 
----
+---------------------------------------------------------
 
 ## ✨ Key Features
 
@@ -77,7 +77,7 @@ Access the production application at **[https://scholarai.me](https://scholarai.
 - **Role-Based Access Control**: Fine-grained permissions
 - **Data Encryption**: End-to-end encryption for sensitive data
 
----
+--------------------------------------------------------------------
 
 ## 🏗️ Architecture
 
