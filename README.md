@@ -157,7 +157,7 @@ ScholarAI follows a modern microservices architecture with separate frontend, ba
 - **Reverse Proxy**: Nginx
 - **CI/CD**: GitHub Actions
 
----
+----------------------------------------------------------
 
 ## 📂 Project Structure
 
